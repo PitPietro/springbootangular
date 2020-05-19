@@ -1,4 +1,4 @@
-package com.example.springboot;
+package com.example.springboot.controllers;
 
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,7 +19,7 @@ import java.util.Date;
  * results in web requests returning data rather than a view.
  */
 @RestController
-public class HelloController {
+public class DefaultController {
 
 	@RequestMapping("/")
 	public String index() {
